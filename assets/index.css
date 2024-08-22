@@ -406,13 +406,19 @@ main {
 
 
 @media (max-width: 1000px){
+    *{
+        font-size: 17px;
+    }
     header div{
+        padding-top: 5px;
         padding-left: 60px;
     }
     #navigator{
-        font-size: 20px;
-padding-left: 70px;    }
-       nav li{
-        width: 80px;
+padding-left: 50px;    }
+nav li{
+    width: 70px;
+}
+       nav li a{
+        font-size: 13px;
        }
 }
