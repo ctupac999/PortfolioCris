@@ -402,3 +402,17 @@ main {
 .sectionFirst h1 {
     color: var(--secondary-color)
 }
+
+
+
+@media (max-width: 1000px){
+    header div{
+        padding-left: 60px;
+    }
+    #navigator{
+        font-size: 20px;
+padding-left: 70px;    }
+       nav li{
+        width: 80px;
+       }
+}
