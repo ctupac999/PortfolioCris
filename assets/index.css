@@ -2,8 +2,6 @@
 @import "./index.css";
 @import "./sobreMi.css";
 @import "./trabajos.css";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
-
 
 * { margin: 0; padding: 0; }
 *, *::before, *::after { box-sizing: border-box; }
@@ -29,7 +27,7 @@ img, video, svg { height: auto; max-width: 100%; }
 :root {
     --primary-color: #171718;
     --secondary-color: #FFFFFF;
-    --tertiary-color: #F56C00;
+    --tertiary-color: #f56a00a2;
     --quaternary-color: #85BFD1;
     --quinary-color: #3C40AE;
     --senary-color: rgba(255, 255, 255, 0.3);
