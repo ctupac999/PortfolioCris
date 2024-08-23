@@ -7,20 +7,26 @@ header {
     top: 0;
     align-items: center;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.01));
-    justify-content: space-between;
     padding: 0 20px;
 }
 
 header div {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+header div a {
+    display: flex;
+    align-items: center;
 }
 
 header div h3 {
     color: var(--tertiary-color);
     margin: 0;
 }
+
+
+
+
 
 nav {
     width: 90%;
@@ -47,6 +53,7 @@ a:hover {
 }
 .menu-toggle{  
      display: none;
+     margin-left: 40px;
 }
 
 
@@ -66,10 +73,16 @@ a:hover {
 }
 
 
-
 /* Media query para pantallas menores de 960px */
 @media (max-width: 960px) {
     /* Ocultar el menú de navegación y mostrar el botón de menú sándwich */
+    *{font-size: 17px;}
+
+    header div {
+        padding-top: 5px;
+        width: 70vw;
+    }
+
     #navigator {
         display: none;
         
@@ -88,7 +101,7 @@ a:hover {
         right: 0;
         background-color: var(--tertiary-color);
         z-index: 1;
-        width: 40vw;
+        width: 50vw;
         align-self:flex-end;
         margin: 0px;
         border-radius: 8px;

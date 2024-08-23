@@ -14,30 +14,18 @@
 
     20% {
         opacity: 1;
-        transform: translatex(23px);
     }
 
     50% {
         opacity: 1;
-        transform: translatex(-39px);
-    }
-
-    51% {
-        opacity: 0;
-    }
-
-    80% {
-        opacity: 0;
     }
 
     81% {
         opacity: 1;
-        transform: translatex(-39px);
     }
 
     96% {
         opacity: 1;
-        transform: translatex(23px)
     }
 
     99% {
@@ -50,7 +38,7 @@
 }
 
 .s {
-    transform: translatex(37px);
+    transform: translatex(87px);
     position: absolute;
     opacity: 0;
     animation: animacions 5s forwards;
@@ -69,7 +57,7 @@
     }
 
     50% {
-        transform: translatex(57px);
+        transform: translatex(137px);
         opacity: 1;
     }
 
@@ -82,7 +70,7 @@
     }
 
     81% {
-        transform: translatex(57px);
+        transform: translatex(137px);
         opacity: 1;
     }
 
@@ -102,9 +90,10 @@
 
 .cs {
     position: absolute;
-    transform: translatex(30px);
+    transform: translatex(22px);
     opacity: 1;
     animation: animacioncs 5s forwards;
+    color: var(--secondary-color);
 }
 
 @keyframes animacioncs {
@@ -132,7 +121,7 @@
 
 .cristian {
     opacity: 0;
-    transform: translatex(-10px);
+    transform: translatex(23px);
     position: absolute;
     animation: animacioncristian 5s forwards;
 }
@@ -159,7 +148,7 @@
 
 .salas {
     position: absolute;
-    transform: translatex(75px);
+    transform: translatex(140px);
     animation: animacionsalas 5s forwards;
     opacity: 0;
 }

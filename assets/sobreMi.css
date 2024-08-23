@@ -10,10 +10,8 @@ h5 {
     }
 }
 
-/* carousel */
 
 .carousel {
-    /* height: 450px; */
     width: 60vw;
     padding: 0.1px;
     border-radius: 8px;
@@ -82,13 +80,11 @@ li {
 
 
 #slide2 {
-
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0)),
         url('./img/thedeadofsocrates.jpg') center/cover;
 }
 
 #slide3 {
-
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.0)),
         url('./img/budda.jpg') center/cover;
 }

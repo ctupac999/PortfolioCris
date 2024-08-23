@@ -25,27 +25,3 @@ section {
 }
 
 
-@media (max-width: 1000px) {
-    * {
-        font-size: 17px;
-    }
-
-    header div {
-        padding-top: 5px;
-        padding-left: 60px;
-        width: 70vw;
-    }
-
-    #navigator a{
-        padding-left: 20px;
-    }
-
-
-    li {
-        width: 70px;
-    }
-
-    nav li a {
-        font-size: 13px;
-    }
-}
