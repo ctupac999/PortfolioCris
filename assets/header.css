@@ -4,32 +4,36 @@ header {
     height: 7vh;
     display: flex;
     position: fixed;
-    top: 0px;
+    top: 0;
     align-items: center;
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.01));
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 header div {
-    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 header div h3 {
-    color: var(--tertiary-color)
+    color: var(--tertiary-color);
+    margin: 0;
 }
 
 nav {
     width: 90%;
     margin: 0 80px 0 80px;
-
 }
 
 ol {
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
     gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -39,5 +43,65 @@ a {
 }
 
 a:hover {
-    color: var(--tertiary-color)
+    color: var(--tertiary-color);
+}
+.menu-toggle{  
+     display: none;
+}
+
+
+/* Estilos adicionales para el botón de menú sándwich */
+.menu-toggle {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--tertiary-color);
+    transition: all 0.3s ease;
+
+}
+
+
+
+/* Media query para pantallas menores de 960px */
+@media (max-width: 960px) {
+    /* Ocultar el menú de navegación y mostrar el botón de menú sándwich */
+    #navigator {
+        display: none;
+        
+    }
+  
+    .menu-toggle {
+        cursor: pointer;
+        display:flex;
+    }
+
+    /* Cuando el checkbox está marcado, mostrar el menú */
+    #menu-toggle:checked ~ nav {
+        display: block;
+        position: absolute;
+        top: 7vh; /* Debajo del header */
+        right: 0;
+        background-color:var(--tertiary-color);
+        z-index: 1;
+        width: 30vw;
+        align-self:flex-end;
+        margin: 0px;
+        border-radius: 8px;
+    }
+  
+    #navigator ol {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+   }
+   #navigator li a {
+    color: var(--secondary-color);
+   }
 }
