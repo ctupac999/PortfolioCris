@@ -17,15 +17,14 @@ header div {
 header div a {
     display: flex;
     align-items: center;
+    height: 30px;
+    width: 30px;
 }
 
 header div h3 {
     color: var(--tertiary-color);
     margin: 0;
 }
-
-
-
 
 
 nav {
