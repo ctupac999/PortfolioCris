@@ -86,9 +86,9 @@ a:hover {
         position: absolute;
         top: 7vh; /* Debajo del header */
         right: 0;
-        background-color:var(--tertiary-color);
+        background-color: var(--tertiary-color);
         z-index: 1;
-        width: 30vw;
+        width: 40vw;
         align-self:flex-end;
         margin: 0px;
         border-radius: 8px;
@@ -100,6 +100,7 @@ a:hover {
         padding: 10px 0;
         margin: 0;
         text-align: center;
+
    }
    #navigator li a {
     color: var(--secondary-color);
