@@ -76,7 +76,6 @@ a:hover {
 /* Media query para pantallas menores de 960px */
 @media (max-width: 960px) {
     /* Ocultar el menú de navegación y mostrar el botón de menú sándwich */
-    *{font-size: 17px;}
 
     header div {
         padding-top: 5px;
@@ -101,10 +100,12 @@ a:hover {
         right: 0;
         background-color: var(--tertiary-color);
         z-index: 1;
-        width: 50vw;
+        width: 45vw;
         align-self:flex-end;
         margin: 0px;
         border-radius: 8px;
+        
+
     }
   
     #navigator ol {
@@ -112,10 +113,10 @@ a:hover {
         gap: 20px;
         padding: 10px 0;
         margin: 0;
-        text-align: center;
-
+        padding-left: 30px;
    }
    #navigator li a {
     color: var(--secondary-color);
+    font-size: 17px;
    }
 }
