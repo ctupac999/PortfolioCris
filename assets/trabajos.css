@@ -8,8 +8,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
-    align-items: center;
-    justify-content: center;
 }
 
 .card {
@@ -61,4 +59,12 @@ main {
     background-color: #171718;
 }
 
-
+@media (max-width: 1100px){
+    #cards{
+        height: 70vh;
+}
+    .card{
+        height: 20vh;
+        width: 12vw;
+    }
+}
