@@ -1,0 +1,186 @@
+
+.c {
+    position: absolute;
+    transform: translatex(23px);
+    opacity: 0;
+    animation: animacionc 5s forwards;
+}
+@keyframes animacionc {
+    0% {}
+
+    19% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+        transform: translatex(23px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translatex(-39px);
+    }
+
+    51% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    81% {
+        opacity: 1;
+        transform: translatex(-39px);
+    }
+
+    96% {
+        opacity: 1;
+        transform: translatex(23px)
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.s {
+    transform: translatex(37px);
+    position: absolute;
+    opacity: 0;
+    animation: animacions 5s forwards;
+}
+
+@keyframes animacions {
+    0% {}
+
+    19% {
+        opacity: 0;
+    }
+
+    20% {
+        transform: translatex(37px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translatex(57px);
+        opacity: 1;
+    }
+
+    51% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    81% {
+        transform: translatex(57px);
+        opacity: 1;
+    }
+
+    96% {
+        transform: translatex(37px);
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cs {
+    position: absolute;
+    transform: translatex(30px);
+    opacity: 1;
+    animation: animacioncs 5s forwards;
+}
+
+@keyframes animacioncs {
+
+    20% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    96% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cristian {
+    opacity: 0;
+    transform: translatex(-10px);
+    position: absolute;
+    animation: animacioncristian 5s forwards;
+}
+
+@keyframes animacioncristian {
+    49% {
+        opacity: 0;
+    }
+
+    51% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+
+}
+
+.salas {
+    position: absolute;
+    transform: translatex(75px);
+    animation: animacionsalas 5s forwards;
+    opacity: 0;
+}
+
+@keyframes animacionsalas {
+    50% {
+        opacity: 0;
+    }
+
+    51% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+
+    100% {}
+}

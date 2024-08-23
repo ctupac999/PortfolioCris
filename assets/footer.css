@@ -1,0 +1,11 @@
+footer {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+footer ol {
+    justify-content: center;
+}

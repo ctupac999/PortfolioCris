@@ -1,0 +1,98 @@
+
+@keyframes enlargeText1 {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.h {
+    animation: enlargeText1 5s infinite forwards;
+}
+
+@keyframes enlargeText2 {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.o {
+    animation: enlargeText2 5s infinite forwards;
+}
+
+@keyframes enlargeText3 {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.l {
+    animation: enlargeText3 5s infinite forwards;
+}
+
+@keyframes enlargeText4 {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.a {
+    animation: enlargeText4 5s infinite forwards;
+}
+
+@keyframes enlargeText5 {
+    0% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.admiration {
+    animation: enlargeText5 5s infinite forwards;
+}
+
+.name {
+    color: var(--tertiary-color);
+}
+
+section h1 {
+    color: var(--secondary-color)
+}
