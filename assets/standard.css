@@ -61,8 +61,8 @@ svg {
 }
 
 :root {
-    --primary-color: #171718;
-    --secondary-color: #FFFFFF;
+    --secondary-color: #171718;
+    --primary-color: #FFFFFF;
     --tertiary-color: #f56a00a2;
     --quaternary-color: #85BFD1;
     --quinary-color: #3C40AE;
