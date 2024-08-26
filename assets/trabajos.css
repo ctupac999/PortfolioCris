@@ -5,12 +5,12 @@ main {
 
 #cards {
     padding-top: 200px;
-    margin: 50px;
     height: 60vh;
-    width: 90vw;
+    width: 70vw;
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
+    justify-content: space-between;
 }
 
 .card {
@@ -68,8 +68,8 @@ main {
         height: 70vh;
 }
     .card{
-        height: 20vh;
-        width: 12vw;
+        height: 50px;
+        width: 50px;
     }
 
 }
