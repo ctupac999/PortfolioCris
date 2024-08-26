@@ -52,7 +52,6 @@ a:hover {
 }
 .menu-toggle{  
      display: none;
-     margin-left: 40px;
 }
 
 
@@ -78,8 +77,6 @@ a:hover {
     border: none;
     cursor: pointer;
     background-color: var(--primary-color);
-    margin-right: 20px;
-
 }
 
 #cambiarEstilosBtn.activado {
