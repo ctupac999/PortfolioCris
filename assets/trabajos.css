@@ -3,6 +3,7 @@ main {
 }
 
 #cards {
+    margin: 50px;
     height: 30vh;
     width: 90vw;
     display: flex;
@@ -67,4 +68,5 @@ main {
         height: 20vh;
         width: 12vw;
     }
+
 }
