@@ -38,7 +38,7 @@
 }
 
 .s {
-    transform: translatex(87px);
+    transform: translatex(41px);
     position: absolute;
     opacity: 0;
     animation: animacions 5s forwards;
@@ -52,12 +52,12 @@
     }
 
     20% {
-        transform: translatex(37px);
+        transform: translatex(42px);
         opacity: 1;
     }
 
     50% {
-        transform: translatex(137px);
+        transform: translatex(140px);
         opacity: 1;
     }
 
@@ -65,21 +65,21 @@
         opacity: 0;
     }
 
-    80% {
+    77% {
         opacity: 0;
     }
 
     81% {
-        transform: translatex(137px);
+        transform: translatex(139px);
         opacity: 1;
     }
 
     96% {
-        transform: translatex(37px);
+        transform: translatex(43px);
         opacity: 1;
     }
 
-    99% {
+    98% {
         opacity: 0;
     }
 
@@ -98,7 +98,7 @@
 
 @keyframes animacioncs {
 
-    20% {
+    17% {
         opacity: 1;
     }
 
@@ -166,7 +166,7 @@
         opacity: 1;
     }
 
-    90% {
+    84% {
         opacity: 0;
     }
 
