@@ -53,10 +53,22 @@ a:hover {
     color: var(--tertiary-color);
 }
 
+#idiomas{
 
+    border: none;
+    background-color: var(--primary-color);
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+
+}
+#idiomas:hover{
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
 #cambiarEstilosBtn {
     width: 22px;
     height: 22px;
+    border-radius: 30px;
     background-image: url('../assets/img/luna.svg');
     background-size: cover;
     border: none;
@@ -71,8 +83,6 @@ a:hover {
     width: 24px;
     height: 24px;
 }
-
-
 
 @media (max-width: 960px) {
     #navigator{
