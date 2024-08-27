@@ -4,7 +4,6 @@ main {
 }
 
 #cards {
-    padding-top: 200px;
     height: 60vh;
     width: 70vw;
     display: flex;
