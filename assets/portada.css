@@ -16,6 +16,7 @@
     };
 
     #portada{
+        padding: 5vh 10vw 5vh 10vw;
         height: 55vh;
     }
 }
