@@ -44,10 +44,15 @@ h5{
 
 
 @media (max-width: 1100px) {
-    h5 {
-        width: 200px;
-        font-size: 0.8rem;
+    #bio{
+        height: auto;
+    }
 
+    #tituloBio{
+        margin-top: 0;
+    }
+    h5 {
+        font-size: 0.8rem;
         &::first-letter {
             font-size: 1.2rem;
         }
@@ -57,6 +62,10 @@ h5{
         height: 72vh;
         width: 100%;
         background-color: transparent;
+        z-index: 1;
+        margin-top: 5vh;
+        text-align: center;
+
     }
 
 
