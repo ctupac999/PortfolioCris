@@ -48,6 +48,10 @@ h2{font-size: 2.0rem;}
     h1{
         font-size: 1.7rem;
     };
+
+    #portada{
+        height: 75vh;
+    }
     #bio, #proyectos, #cards{
         height: auto;
     }
