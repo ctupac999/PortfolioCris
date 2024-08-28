@@ -6,7 +6,6 @@ header {
     position: fixed;
     top: 0;
     align-items: center;
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.01));
     padding: 0 20px;
 }
 
@@ -44,15 +43,6 @@ ol {
     gap: 30px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 1.3rem;
-}
-
-a:hover {
-    color: var(--tertiary-color);
-}
 
 #idiomas{
     border: none;

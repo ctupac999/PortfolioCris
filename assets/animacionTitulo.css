@@ -1,0 +1,16 @@
+#tituloBio h2{
+    opacity: 0;
+    animation: animaciontitulo 5s forwards;
+}
+
+@keyframes animaciontitulo {
+    49% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
