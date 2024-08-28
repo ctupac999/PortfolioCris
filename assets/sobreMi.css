@@ -32,7 +32,7 @@ h5{
 
 
 #fotoperfil{
-    border-radius: 16px;
+    border-radius: 8px;
     height: 35vh;
     width: 30%;
     border-image: fill 0 linear-gradient(#0001, #000);
@@ -44,10 +44,6 @@ h5{
 
 
 @media (max-width: 1100px) {
-    #bio{
-        height: auto;
-    }
-
     #tituloBio{
         margin-top: 0;
     }
@@ -61,8 +57,6 @@ h5{
     #textoperfil {
         height: 72vh;
         width: 100%;
-        background-color: transparent;
-        z-index: 1;
         margin-top: 5vh;
         text-align: center;
 

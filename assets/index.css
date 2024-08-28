@@ -16,7 +16,6 @@ main {
 
 section {
     width: 100vw;
-    height: 85vh;
     padding: 5vh 20vw 5vh 20vw;
     display: flex;
     flex-direction: row;
@@ -26,10 +25,15 @@ section {
 }
 
 #portada{
+    height: 90vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    text-align: center;
+}
+
+#bio, #proyectos, #cards{
+    height: 60vh;
 }
 
 #bio, #proyectos{
@@ -44,4 +48,7 @@ h2{font-size: 2.0rem;}
     h1{
         font-size: 1.7rem;
     };
+    #bio, #proyectos, #cards{
+        height: auto;
+    }
 }
