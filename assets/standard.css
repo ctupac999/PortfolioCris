@@ -1,5 +1,7 @@
-@import "./sobreMi.css";
+@import "./bio.css";
 @import "./herramientas.css";
+@import "./portada.css";
+@import "./proyectos.css";
 @import "./header.css";
 @import "./footer.css";
 @import "./animacionHeader.css";
@@ -34,6 +36,10 @@ h5,
 h6 {
     text-wrap: balance;
 }
+
+h1{font-size: 2.2rem;}
+h2{font-size: 2.0rem;}
+h5{font-size: 1.0rem;}
 
 img,
 video,

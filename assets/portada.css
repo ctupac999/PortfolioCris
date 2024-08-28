@@ -1,0 +1,21 @@
+
+#portada{
+    width: 100vw;
+    height: 90vh;
+    padding: 5vh 20vw 5vh 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 1100px){
+
+    h1{
+        font-size: 1.7rem;
+    };
+
+    #portada{
+        height: 75vh;
+    }
+}

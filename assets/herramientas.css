@@ -1,3 +1,14 @@
+#herramientas {
+    width: 100vw;
+    height: auto;
+    padding: 15vh 20vw 15vh 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px
+}
 .card {
     position: relative;
     width: 6vw;
@@ -51,7 +62,6 @@
 @media (max-width: 1100px){
     #cards{
         height: 70vh;
-        gap: 30px;
 }
     .card{
         height: 50px;
