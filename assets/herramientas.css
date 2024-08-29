@@ -1,7 +1,7 @@
 #herramientas {
     width: 100vw;
     height: auto;
-    padding: 15vh 20vw 15vh 20vw;
+    padding: 0 20vw 15vh 20vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -61,7 +61,10 @@
     background-color: var(--primary-color);
 }
 
-@media (max-width: 1100px){
+@media (max-width: 1500px){
+    #herramientas{
+        margin-top: -20vh;
+    }
     #cards{
         height: 70vh;
 }
