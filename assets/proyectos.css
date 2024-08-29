@@ -61,6 +61,8 @@
 
 @media (max-width: 1500px) {
     #proyectos{
+        padding: 10vh 10vw 15vh 10vw;
+
     }
     #tituloBio{
         margin-top: -30vh;

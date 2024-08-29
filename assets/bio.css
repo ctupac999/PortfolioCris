@@ -69,6 +69,7 @@ h5{
 
 @media (max-width: 1200px) {
     #bio{
+        padding: 15vh 10vw 10vh 10vw;
         background: linear-gradient(290deg, var(--primary-color) 12%,var(--quinary-color) 0%);
        }
 }
