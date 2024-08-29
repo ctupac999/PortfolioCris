@@ -78,7 +78,7 @@ ol {
 
 @media (max-width: 1200px) {
     ol{flex-direction: column;
-        margin-top: 15vh;
+        margin-top: 17vh;
     }
 }
 
