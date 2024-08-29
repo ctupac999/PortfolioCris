@@ -25,8 +25,7 @@ header div a {
 header div h3 {
     color: var(--tertiary-color);
     margin: 0;
-    font-size: 24px;
-}
+    }
 
 
 #navigator {
@@ -36,13 +35,17 @@ header div h3 {
 
 ol {
     display: flex;
-    justify-content: end;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 20px;
 }
 
+.link{
+    width: 23px;
+    height: 23px;
+}
 
 #idiomas{
     border: none;
@@ -73,6 +76,12 @@ ol {
     height: 24px;
 }
 
+@media (max-width: 1200px) {
+    ol{flex-direction: column;
+        margin-top: 15vh;
+    }
+}
+
 @media (max-width: 960px) {
     #navigator{
         margin: 0;
@@ -81,4 +90,5 @@ ol {
     #cambiarEstilosBtn {
         margin-right: 0px;
     }
+
 }

@@ -1,14 +1,14 @@
 #herramientas {
     width: 100vw;
     height: auto;
-    padding: 0 20vw 15vh 20vw;
+    padding: 10vh 20vw 15vh 20vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    background-color:var(--quinary-color) ;    
+    background: linear-gradient(0deg, var(--quinary-color) 85%,var(--primary-color) 100%);
 }
 .card {
     position: relative;
@@ -62,8 +62,7 @@
 }
 
 @media (max-width: 1500px){
-    #herramientas{
-    }
+
     #cards{
         height: 70vh;
 }
