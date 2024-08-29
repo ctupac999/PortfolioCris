@@ -6,13 +6,13 @@ header {
     position: fixed;
     top: 0;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
 }
 
 header div {
-    width: 60vw;
-    display: flex;
-    align-items: center;
+    width: auto;
+    padding: 0 0 0 2vw;
 }
 
 header div a {
@@ -30,8 +30,8 @@ header div h3 {
 
 
 #navigator {
-    width: 35vw;
-    margin: 0 80px 0 80px;
+    width: auto;
+    padding: 0 2vw 0 0;
 }
 
 ol {
@@ -40,7 +40,7 @@ ol {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 30px;
+    gap: 20px;
 }
 
 

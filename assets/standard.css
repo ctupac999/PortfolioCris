@@ -35,6 +35,7 @@ h4,
 h5,
 h6 {
     text-wrap: balance;
+    color: var(--secondary-color);
 }
 
 h1{font-size: 2.2rem;}

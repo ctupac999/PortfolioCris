@@ -1,7 +1,6 @@
 
 .c {
     position: absolute;
-    transform: translatex(23px);
     opacity: 0;
     animation: animacionc 5s forwards;
 }
@@ -38,7 +37,7 @@
 }
 
 .s {
-    transform: translatex(41px);
+    transform: translatex(19px);
     position: absolute;
     opacity: 0;
     animation: animacions 5s forwards;
@@ -52,7 +51,7 @@
     }
 
     20% {
-        transform: translatex(42px);
+        transform: translatex(19px);
         opacity: 1;
     }
 
@@ -75,7 +74,7 @@
     }
 
     96% {
-        transform: translatex(43px);
+        transform: translatex(19px);
         opacity: 1;
     }
 
@@ -90,7 +89,6 @@
 
 .cs {
     position: absolute;
-    transform: translatex(22px);
     opacity: 1;
     animation: animacioncs 5s forwards;
     color: var(--secondary-color);
@@ -121,7 +119,6 @@
 
 .cristian {
     opacity: 0;
-    transform: translatex(23px);
     position: absolute;
     animation: animacioncristian 5s forwards;
 }
