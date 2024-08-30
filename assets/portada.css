@@ -23,11 +23,14 @@
 }
 
 @media (max-width: 1200px){
-    #portada{background: linear-gradient(25deg, var(--quinary-color) 15%,var(--primary-color) 10%);
+    #portada{
+        background: linear-gradient(25deg, var(--quinary-color) 15%,var(--primary-color) 10%);
   }
 }
 
 @media (max-width: 600px){
-    #portada{background: linear-gradient(22deg, var(--quinary-color) 15%,var(--primary-color) 10%);
+    #portada{
+    padding: 5vh 17vw 5vh 17vw;
+    background: linear-gradient(22deg, var(--quinary-color) 15%,var(--primary-color) 10%);
   }
 }
