@@ -1,7 +1,7 @@
 #proyectos {
     width: 100vw;
     height: auto;
-    padding: 15vh 15vw 10vh 15vw;
+    padding: 35vh 15vw 10vh 15vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -26,10 +26,14 @@
 }
 
 .cardProyectos-content {
+    padding: 4vh 0 4vh 0;
     width: 45%;
     display: flex;
     flex-direction: column;
     gap: 27px;
+}
+.cardProyectos-image {
+    min-width: 70%;
 }
 
 .cardProyectos-image a{
@@ -37,10 +41,12 @@
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cardProyectos-image img{
     border-radius: 8px;
+    max-height: 400px;
 }
 
 .cardProyectos-content div {
