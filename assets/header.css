@@ -7,12 +7,11 @@ header {
     top: 0;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 3vw 0 3vw;
 }
 
 header div {
     width: auto;
-    padding: 0 0 0 2vw;
 }
 
 header div a {
@@ -30,7 +29,6 @@ header div h3 {
 
 #navigator {
     width: auto;
-    padding: 0 2vw 0 0;
 }
 
 ol {
@@ -77,18 +75,10 @@ ol {
 }
 
 @media (max-width: 1200px) {
+    header{
+        padding: 0 3vw 0 2vw;
+    }
     ol{flex-direction: column;
-        margin-top: 19vh;
+        margin-top: 17vh;
     }
-}
-
-@media (max-width: 960px) {
-    #navigator{
-        margin: 0;
-    }
-
-    #cambiarEstilosBtn {
-        margin-right: 0px;
-    }
-
 }

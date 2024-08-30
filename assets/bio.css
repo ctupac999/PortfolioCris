@@ -1,19 +1,19 @@
 #bio{
     width: 100vw;
     height: auto;
-    padding: 15vh 20vw 10vh 20vw;
+    padding: 10vh 15vw 10vh 15vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 5vh;
     flex-wrap: wrap;
+    gap:5vh;
     background: linear-gradient(290deg, var(--primary-color) 11%,var(--quinary-color) 0%);
 }
 
 #tituloBio{
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
 #textoperfil{
@@ -23,15 +23,9 @@
     gap: 10px;
 }
 
-h5{
+#textoperfil :first-child {    
     &::first-letter {
-        font-size: 1.4rem;
-    }
-}
-
-#textobio1 {    
-    &::first-letter {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
         color: var(--tertiary-color);
     }
 }
@@ -52,12 +46,7 @@ h5{
    }
    #tituloBio{
     padding-top : 25vh;   }
-    h5 {
-        font-size: 0.8rem;
-        &::first-letter {
-            font-size: 1.4rem;
-        }
-    }
+
     #textoperfil {
         width: 100%;
         text-align: center;
@@ -69,12 +58,13 @@ h5{
 
 @media (max-width: 1200px) {
     #bio{
-        padding: 7vh 10vw 10vh 10vw;
+        padding: 7vh 12vw 10vh 12vw;
         background: linear-gradient(290deg, var(--primary-color) 8%,var(--quinary-color) 0%);
        }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     #bio{
+        padding: 7vh 15vw 10vh 15vw;
         background: linear-gradient(290deg, var(--primary-color) 8%,var(--quinary-color) 0%);
        }
 }
