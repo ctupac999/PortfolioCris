@@ -102,7 +102,7 @@ align-items: center;
 
 @media (max-width: 600px) {
     #proyectos{ 
-        padding: 10vh 17vw 10vh 17vw;
+        padding: 10vh 16vw 10vh 16vw;
         background: linear-gradient(345deg, var(--primary-color) 95%,var(--quinary-color) 25%);
     }
 }

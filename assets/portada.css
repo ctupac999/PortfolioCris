@@ -30,7 +30,7 @@
 
 @media (max-width: 600px){
     #portada{
-    padding: 5vh 17vw 5vh 17vw;
+    padding: 5vh 16vw 5vh 16vw;
     background: linear-gradient(22deg, var(--quinary-color) 15%,var(--primary-color) 10%);
   }
 }
