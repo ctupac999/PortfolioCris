@@ -76,7 +76,7 @@ ol {
 
 @media (max-width: 1200px) {
     header{
-        padding: 0 3vw 0 2vw;
+        padding: 2vh 4vw 0 3vw;
     }
     ol{flex-direction: column;
         margin-top: 17vh;
