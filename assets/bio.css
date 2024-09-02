@@ -15,7 +15,6 @@
     width: 100%;
     text-align: center;
     margin-top: -10vh;
-
 }
 
 #textoperfil{
@@ -43,12 +42,8 @@
 
 @media (max-width: 1500px) {
    #bio{  
-    padding-top: 5vh;
-
+    padding-top: -20vh;
    }
-   #tituloBio{
-    padding-top : 25vh;   }
-
     #textoperfil {
         width: 100%;
         text-align: center;
@@ -60,13 +55,13 @@
 
 @media (max-width: 1200px) {
     #bio{
-        padding: 7vh 12vw 10vh 12vw;
+        padding: 10vh 12vw 10vh 12vw;
         background: linear-gradient(290deg, var(--primary-color) 8%,var(--quinary-color) 0%);
        }
 }
 @media (max-width: 700px) {
     #bio{
-        padding: 7vh 16vw 10vh 16vw;
+        padding: 10vh 16vw 10vh 16vw;
         background: linear-gradient(290deg, var(--primary-color) 8%,var(--quinary-color) 0%);
        }
 }
