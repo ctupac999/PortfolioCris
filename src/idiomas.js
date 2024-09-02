@@ -62,7 +62,7 @@ const textosAlternativos = [
     'Me caracterizo por mi capacidad de resolución de problemas, aprendizaje continuo y orientación al cliente. Si quieres contactarme te invito a hacerlo a través de mi linkedIn',
     'EN',
     'Programador y diseñador web',
-    'Briografía',
+    'Biografía',
     'Proyectos relevantes',
     'Este es un framework que interactúa con una DB (en este caso un .json para simularlo).Esta interfaz nos proporcinona una la lista de datos dependiendo el filtro utilizado, un gráfico y los indicadores. Todo sobre esta misma DB. Puedes interactuar en la página y probarla, además de checkear el código en github a través de los siguientes enlaces!',
     'Repositorio',    

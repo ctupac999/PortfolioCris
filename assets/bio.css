@@ -1,19 +1,21 @@
 #bio{
     width: 100vw;
     height: auto;
-    padding: 10vh 15vw 10vh 15vw;
+    padding: 15vh 15vw 10vh 15vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap:5vh;
-    background: linear-gradient(290deg, var(--primary-color) 11%,var(--quinary-color) 0%);
+    background: linear-gradient(290deg, var(--primary-color) 7%,var(--quinary-color) 0%);
 }
 
 #tituloBio{
     width: 100%;
     text-align: center;
+    margin-top: -10vh;
+
 }
 
 #textoperfil{

@@ -1,12 +1,12 @@
 #proyectos {
     width: 100vw;
     height: auto;
-    padding: 35vh 15vw 10vh 15vw;
+    padding: 10vh 15vw 10vh 15vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 5vh;
-    background: linear-gradient(345deg, var(--primary-color) 83%,var(--quinary-color) 25%);
+    background: linear-gradient(345deg, var(--primary-color) 95%,var(--quinary-color) 15%);
 }
 
 #tituloProyecto {
@@ -81,11 +81,8 @@ align-items: center;
 
 @media (max-width: 1500px) {
     #proyectos{
-        padding: 20vh 12vw 10vh 12vw;
-
-    }
-    #tituloBio{
-        margin-top: -30vh;
+        background: linear-gradient(345deg, var(--primary-color) 95%,var(--quinary-color) 25%);
+        padding: 10vh 12vw 10vh 12vw;
     }
     .cardProyectos{
         flex-direction: column;
@@ -100,15 +97,16 @@ align-items: center;
 }
 
 @media (max-width: 1200px) {
+
     #proyectos{ 
         padding: 10vh 12vw 10vh 12vw;
-        background: linear-gradient(345deg, var(--primary-color) 90%,var(--quinary-color) 25%);
+        background: linear-gradient(345deg, var(--primary-color) 95%,var(--quinary-color) 25%);
     }
 }
 
 @media (max-width: 600px) {
     #proyectos{ 
         padding: 10vh 16vw 10vh 16vw;
-        background: linear-gradient(345deg, var(--primary-color) 95%,var(--quinary-color) 25%);
+        background: linear-gradient(345deg, var(--primary-color) 98%,var(--quinary-color) 25%);
     }
 }
